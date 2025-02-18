@@ -1,0 +1,28 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[!htbp] \centering
+  \caption{OLS upsilon }
+\begin{tabular}{@{\extracolsep{5pt}}lcccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{4}{c}{\textit{Dependent variable: logwagedifferential111m_111n}} \
+\cr \cline{2-5}
+\\[-1.8ex] & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{No Effects} & \multicolumn{1}{c}{County Effects Only} & \multicolumn{1}{c}{Year Effects Only}  \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) \\
+\hline \\[-1.8ex]
+ const & 0.238$^{***}$ & 0.238$^{***}$ & 0.238$^{***}$ & 0.238$^{***}$ \\
+& (0.001) & (0.001) & (0.001) & (0.001) \\
+ loghoursdifferential111m_111n & 0.120$^{***}$ & 0.121$^{***}$ & 0.120$^{***}$ & 0.121$^{***}$ \\
+& (0.010) & (0.010) & (0.010) & (0.010) \\
+\hline \\[-1.8ex]
+ Observations & 45125 & 45125 & 45125 & 45125 \\
+ N. of groups & 30 & 30 & 30 & 30 \\
+ $R^2$ & 0.003 & 0.003 & 0.003 & 0.003 \\
+ Residual Std. Error & 0.010 & 0.010 & 0.010 & 0.010 \\
+ F Statistic & 155.547$^{***}$ & 157.969$^{***}$ & 155.613$^{***}$ & 157.866$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}\end{document}

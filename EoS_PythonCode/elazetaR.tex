@@ -1,0 +1,28 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[!htbp] \centering
+  \caption{OLS elazetaR  clean covid}
+\begin{tabular}{@{\extracolsep{5pt}}lcccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{4}{c}{\textit{Dependent variable: logwagedifferential121m_121n}} \
+\cr \cline{2-5}
+\\[-1.8ex] & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{No Effects} & \multicolumn{1}{c}{County Effects Only} & \multicolumn{1}{c}{Year Effects Only}  \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) \\
+\hline \\[-1.8ex]
+ const & -0.002$^{}$ & -0.002$^{}$ & -0.002$^{}$ & -0.002$^{}$ \\
+& (0.003) & (0.003) & (0.003) & (0.003) \\
+ loghoursdifferential121m_121n & 0.187$^{***}$ & 0.192$^{***}$ & 0.187$^{***}$ & 0.193$^{***}$ \\
+& (0.017) & (0.017) & (0.017) & (0.017) \\
+\hline \\[-1.8ex]
+ Observations & 24186 & 24186 & 24186 & 24186 \\
+ N. of groups & 30 & 30 & 30 & 30 \\
+ $R^2$ & 0.005 & 0.006 & 0.005 & 0.006 \\
+ Residual Std. Error & 0.039 & 0.040 & 0.039 & 0.040 \\
+ F Statistic & 128.265$^{***}$ & 135.239$^{***}$ & 127.890$^{***}$ & 135.608$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}\end{document}

@@ -1,0 +1,38 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[!htbp] \centering
+  \caption{OLS elasticities22R clean covid}
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\\[-1.8ex] & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects}  \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) \\
+\hline \\[-1.8ex]
+ const & -0.074$^{***}$ & 0.240$^{***}$ & -0.124$^{***}$ & -0.002$^{}$ & -0.248$^{***}$ & 0.599$^{***}$ & 0.636$^{***}$ \\
+& (0.002) & (0.001) & (0.005) & (0.003) & (0.002) & (0.001) & (0.002) \\
+ loghoursdifferential112m_112n & 0.118$^{***}$ & & & & & & \\
+& (0.011) & & & & & & \\
+ loghoursdifferential111m_111n & & 0.167$^{***}$ & & & & & \\
+& & (0.014) & & & & & \\
+ loghoursdifferential122m_122n & & & 0.126$^{***}$ & & & & \\
+& & & (0.014) & & & & \\
+ loghoursdifferential121m_121n & & & & 0.187$^{***}$ & & & \\
+& & & & (0.017) & & & \\
+ loghoursdifferential_young_midlle_age & & & & & 0.119$^{***}$ & & \\
+& & & & & (0.013) & & \\
+ loghoursdifferential_ young_low_vs_high & & & & & & 0.047$^{***}$ & \\
+& & & & & & (0.011) & \\
+ loghoursdifferential_middle_low_vs_high & & & & & & & 0.133$^{***}$ \\
+& & & & & & & (0.014) \\
+\hline \\[-1.8ex]
+ Observations & 24186 & 24186 & 24186 & 24186 & 24186 & 24186 & 24186 \\
+ N. of groups & 30 & 30 & 30 & 30 & 30 & 30 & 30 \\
+ $R^2$ & 0.005 & 0.006 & 0.003 & 0.005 & 0.003 & 0.001 & 0.004 \\
+ Residual Std. Error & 0.019 & 0.013 & 0.041 & 0.039 & 0.010 & 0.003 & 0.021 \\
+ F Statistic & 121.355$^{***}$ & 136.940$^{***}$ & 83.203$^{***}$ & 128.265$^{***}$ & 82.529$^{***}$ & 17.430$^{***}$ & 85.329$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{7}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}\end{document}

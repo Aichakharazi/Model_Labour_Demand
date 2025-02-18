@@ -1,0 +1,28 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[!htbp] \centering
+  \caption{OLS elassss}
+\begin{tabular}{@{\extracolsep{5pt}}lcccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{4}{c}{\textit{Dependent variable: logwagedifferential_young_midlle_age}} \
+\cr \cline{2-5}
+\\[-1.8ex] & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{No Effects} & \multicolumn{1}{c}{County Effects Only} & \multicolumn{1}{c}{Year Effects Only}  \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) \\
+\hline \\[-1.8ex]
+ const & -0.257$^{***}$ & -0.257$^{***}$ & -0.257$^{***}$ & -0.257$^{***}$ \\
+& (0.001) & (0.001) & (0.001) & (0.001) \\
+ loghoursdifferential_young_midlle_age & 0.111$^{***}$ & 0.109$^{***}$ & 0.109$^{***}$ & 0.112$^{***}$ \\
+& (0.009) & (0.010) & (0.009) & (0.010) \\
+\hline \\[-1.8ex]
+ Observations & 45125 & 45125 & 45125 & 45125 \\
+ N. of groups & 30 & 30 & 30 & 30 \\
+ $R^2$ & 0.003 & 0.003 & 0.003 & 0.003 \\
+ Residual Std. Error & 0.010 & 0.010 & 0.009 & 0.010 \\
+ F Statistic & 137.723$^{***}$ & 131.892$^{***}$ & 131.063$^{***}$ & 138.450$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}\end{document}

@@ -1,0 +1,28 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[!htbp] \centering
+  \caption{OLS elasigma}
+\begin{tabular}{@{\extracolsep{5pt}}lcccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{4}{c}{\textit{Dependent variable: logwagedifferential_young_low_vs_high}} \
+\cr \cline{2-5}
+\\[-1.8ex] & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{No Effects} & \multicolumn{1}{c}{County Effects Only} & \multicolumn{1}{c}{Year Effects Only}  \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) \\
+\hline \\[-1.8ex]
+ const & 0.600$^{***}$ & 0.600$^{***}$ & 0.600$^{***}$ & 0.600$^{***}$ \\
+& (0.001) & (0.001) & (0.001) & (0.001) \\
+ loghoursdifferential_ young_low_vs_high & 0.024$^{***}$ & 0.025$^{***}$ & 0.024$^{***}$ & 0.025$^{***}$ \\
+& (0.008) & (0.008) & (0.008) & (0.008) \\
+\hline \\[-1.8ex]
+ Observations & 45125 & 45125 & 45125 & 45125 \\
+ N. of groups & 30 & 30 & 30 & 30 \\
+ $R^2$ & 0.000 & 0.000 & 0.000 & 0.000 \\
+ Residual Std. Error & 0.002 & 0.002 & 0.002 & 0.002 \\
+ F Statistic & 9.160$^{***}$ & 9.276$^{***}$ & 9.101$^{***}$ & 9.331$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{4}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}\end{document}

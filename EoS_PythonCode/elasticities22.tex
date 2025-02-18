@@ -1,0 +1,38 @@
+\documentclass{report}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[!htbp] \centering
+  \caption{OLS elasticities22}
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+\\[-1.8ex] & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects} & \multicolumn{1}{c}{County and Year Effects}  \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6) & (7) \\
+\hline \\[-1.8ex]
+ const & -0.076$^{***}$ & 0.238$^{***}$ & -0.146$^{***}$ & -0.009$^{***}$ & -0.257$^{***}$ & 0.600$^{***}$ & 0.625$^{***}$ \\
+& (0.001) & (0.001) & (0.003) & (0.002) & (0.001) & (0.001) & (0.002) \\
+ loghoursdifferential112m_112n & 0.091$^{***}$ & & & & & & \\
+& (0.008) & & & & & & \\
+ loghoursdifferential111m_111n & & 0.120$^{***}$ & & & & & \\
+& & (0.010) & & & & & \\
+ loghoursdifferential122m_122n & & & 0.127$^{***}$ & & & & \\
+& & & (0.010) & & & & \\
+ loghoursdifferential121m_121n & & & & 0.188$^{***}$ & & & \\
+& & & & (0.012) & & & \\
+ loghoursdifferential_young_midlle_age & & & & & 0.111$^{***}$ & & \\
+& & & & & (0.009) & & \\
+ loghoursdifferential_ young_low_vs_high & & & & & & 0.024$^{***}$ & \\
+& & & & & & (0.008) & \\
+ loghoursdifferential_middle_low_vs_high & & & & & & & 0.118$^{***}$ \\
+& & & & & & & (0.010) \\
+\hline \\[-1.8ex]
+ Observations & 45125 & 45125 & 45125 & 45125 & 45125 & 45125 & 45125 \\
+ N. of groups & 30 & 30 & 30 & 30 & 30 & 30 & 30 \\
+ $R^2$ & 0.003 & 0.003 & 0.004 & 0.006 & 0.003 & 0.000 & 0.003 \\
+ Residual Std. Error & 0.015 & 0.010 & 0.044 & 0.040 & 0.010 & 0.002 & 0.019 \\
+ F Statistic & 141.362$^{***}$ & 155.547$^{***}$ & 170.189$^{***}$ & 261.867$^{***}$ & 137.723$^{***}$ & 9.160$^{***}$ & 132.822$^{***}$ \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{7}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}\end{document}
