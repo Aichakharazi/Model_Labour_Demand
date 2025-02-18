@@ -1,0 +1,71 @@
+Model without capital  
+	Example1  (steady state file)
+	LaborIneq.mod
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model without capital
+(in this model version tax=0)
+(in this model version there is risk of unemployment)
+
+-----------------------------------------------------------------------------------------------------
+
+Model without capital (old version)
+	LaborIneq2_old.mod
+	(steady state file in github)
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model without capital
+(in this model version there is no risk of unemployment)
+
+-----------------------------------------------------------------------------------------------------
+
+Model with capital : baseline
+	Example2  (steady state file)
+	LaborIneqWithCap.mod
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model with capital
+ (in this model version tax=0)
+(in this model version there is risk of unemployment)
+
+-----------------------------------------------------------------------------------------------------
+
+Model with capital and we use ottavioan perri estimates
+	Example2  (steady state file)
+	LaborIneqWithCapOttavianoPerriEstim
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model with capital
+(in this model version tax=0)
+
+-----------------------------------------------------------------------------------------------------
+
+Model with capital and without covid shock
+	Example2   (steady state file)
+	LaborIneq_modelWithCapWithoutcovidshock.mod
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model with capital
+(in this model version tax=0)
+(in this model version there is risk of unemployment)
+-----------------------------------------------------------------------------------------------------
+
+Model with capital, Governmnent transfers (with UB)
+	Example3   (steady state file)
+	LaborIneqWithCapandGOV
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model with governmnet and welfare analysis
+(government collect taxes and make trasnfers)
+(in this model version there is risk of unemployment)
+
+-----------------------------------------------------------------------------------------------------
+
+Model with capital, Governmnent transfers (with UB)
+	Example3   (steady state file)
+	LaborIneqWithCapandGOVWealfareAnalysis.mod
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model with governmnet and welfare analysis
+(government collect taxes and make trasnfers)
+(in this model version there is risk of unemployment)
+(this is the same version as LaborIneqWithCapandGOV, the only difference is that it derive the utility function 
+of each worker)
+
+-----------------------------------------------------------------------------------------------------
+
+Model with capital, without Governmnent transfers (without UB)
+	Example2   (steady state file)
+	WithoutGOVtransfersWealfareAnalysis.mod
+C:\Users\ak922\Dropbox\Al_Bz\MATLAB\laborMicroMacroP\quality\Results_model with governmnet and welfare analysis
+(in this model version goverment does not collect taxes and do no make tranfers tax=0)
+(in this model version there is risk of unemployment)
+
+-----------------------------------------------------------------------------------------------------
+
